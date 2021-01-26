@@ -1,0 +1,74 @@
+/* Стили обнуления */
+
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a, a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+/* --------------- */
+
+.title {
+	color: red;
+}
+
+.menu__link {
+	color: springgreen;
+}
+
+.about span {
+	color: steelblue;
+}
+
+.about__text+p {
+	color: tomato;
+}
+
+.geography h2 {
+	color: turquoise;
+}
+
+.geography>p {
+	color: violet;
+}
+
+.climat__title, .holidays__title {
+	color: blueviolet;
+}
+
+.holidays__item ~ li {
+	color: cornflowerblue;
+}
+
+.entertainment__subtitle {
+	color: darkorange;
+}
+
+.entertainment p {
+	color: deeppink;
+}
+
+.footer__link {
+	color: mediumslateblue;
+}
